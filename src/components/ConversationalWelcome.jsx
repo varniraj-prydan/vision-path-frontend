@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import axios from 'axios'
 
-const API_BASE = 'http://localhost:8000'
+const API_BASE = 'https://visionpathbackend-production.up.railway.app/'
 
 function ConversationalWelcome({ onRoadmapGenerated }) {
   const [guestId, setGuestId] = useState(null)

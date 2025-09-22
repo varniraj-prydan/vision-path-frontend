@@ -14,7 +14,7 @@ function WelcomePage() {
       setShowSummaryPopup(true)
       setIsAudioPlaying(true)
       
-      const summaryAudio = `http://localhost:8000${roadmapData.summary_audio_url}`
+      const summaryAudio = `https://visionpathbackend-production.up.railway.app${roadmapData.summary_audio_url}`
       
       if (currentAudio) currentAudio.pause()
       const audio = new Audio(summaryAudio)
